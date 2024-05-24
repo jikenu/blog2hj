@@ -11,14 +11,15 @@ export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme({
     navbar: [
+        {text: '首页',link: '/',},
         {
-          text: '首页',
-          link: '/',
-        },
-        {
-            text: 'aaa',
-            link: '/pages/test.md'
-        }
+          text: 'Java',
+          // link: '/pages/test.md'
+          collapsible: true,
+          children: [
+            {text: "Java基础",sidebarDepth: 1,link: "/pages/java/JavaPage1.md",}
+          ]
+      }
       ],
       
       sidebar: {
@@ -34,24 +35,11 @@ export default defineUserConfig({
                 sidebarDepth: 1,
                 // link: "/pages/test.md",
                 children: [   // 子菜单
-                  {
-                    text: "hel2",
-                    sidebarDepth: 2,
-                    link: "/pages/cloudflare/workers/hel2.md",
-                  },
-                  {
-                    text: "hel3",
-                    sidebarDepth: 2,
-                    link: "/pages/cloudflare/workers/hel3.md",
-                  },
-                  {
-                    text: "hel4",
-                    sidebarDepth: 2,
-                    link: "/pages/cloudflare/workers/hel4.md",
-                  },
+                  {text: "hel2",sidebarDepth: 2,link: "/pages/cloudflare/workers/hel2.md",},
+                  {text: "hel3",sidebarDepth: 2,link: "/pages/cloudflare/workers/hel3.md",},
+                  {text: "hel4",sidebarDepth: 2,link: "/pages/cloudflare/workers/hel4.md",},
                 ],  
               },
-
               {
                 text: "pages",
                 collapsible: true,
@@ -59,7 +47,7 @@ export default defineUserConfig({
                 // link: "/pages/pages.md",
                 children: [
                   {text: 'pages1',sidebarDepth:1,link:'/pages/cloudflare/pages/pages1.md'}
-                ],   //子菜单
+                ],
               },
               {
                 text: "fofa",
