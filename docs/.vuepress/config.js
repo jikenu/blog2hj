@@ -22,13 +22,11 @@ export default defineUserConfig({
       ],
       
       sidebar: {
-        innerWidth: '50px',
-        outerWidth:'50px',
        '':[
         {
-            text: 'Cloudflate',
+            text: 'Cloudflare',
             // 是否折叠
-            collapsible: true,
+            collapsible: false,
             children: [
               {
                 text: "workers",
