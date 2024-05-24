@@ -3,7 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
-  base: 'mycf2hj',
+  base: 'blog2hj',
   lang: 'zh-CN',
   title: 'Blog',
   description: '这是我的第一个 VuePress 站点',
