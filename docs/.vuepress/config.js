@@ -17,7 +17,8 @@ export default defineUserConfig({
           // link: '/pages/test.md'
           collapsible: true,
           children: [
-            {text: "Java基础",sidebarDepth: 1,link: "/pages/java/JavaPage1.md",}
+            {text: "Java基础",sidebarDepth: 1,link: "/pages/java/JavaPage1.md",},
+            {text: "Rpc示例",sidebarDepth: 1,link: "/pages/java/Rpc.md",}
           ]
       }
       ],
