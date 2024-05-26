@@ -13,17 +13,15 @@ export default defineUserConfig({
   theme: defaultTheme({
     navbar: [
         {text: '首页',link: '/',},
-        {text: 'Music',link: '/pages/test.md'},
-        // {text:'',link: '/pages/audio/Eve-Kitan.mp3'},
+        {text: 'Music',link: '/pages/audio/Music.md'},
         {
           text: 'Java',
-          // link: '/pages/test.md'
           collapsible: true,
           children: [
             {text: "Java基础",sidebarDepth: 1,link: "/pages/java/JavaPage1.md",},
             {text: "Rpc示例",sidebarDepth: 1,link: "/pages/java/Rpc.md",}
           ]
-      }
+        }
       ],
       
       sidebar: {
@@ -48,7 +46,6 @@ export default defineUserConfig({
                 text: "pages",
                 collapsible: true,
                 sidebarDepth: 1,
-                // link: "/pages/pages.md",
                 children: [
                   {text: 'pages1',sidebarDepth:1,link:'/pages/cloudflare/pages/pages1.md'}
                 ],
@@ -57,7 +54,6 @@ export default defineUserConfig({
                 text: "site",
                 collapsible: true,
                 sidebarDepth: 1,
-                // link: "/pages/pages.md",
                 children: [
                   {text: 'site1',sidebarDepth:1,link:'/pages/cloudflare/site/site1.md'}
                 ],
@@ -66,7 +62,6 @@ export default defineUserConfig({
                 text: "fofa",
                 collapsible: true,
                 sidebarDepth: 1,
-                // link: "/pages/pages.md",
                 children: [
                   {text: 'fofa',sidebarDepth:1,link:'/pages/cloudflare/fofa/fofa.md'}
                 ],   //子菜单
