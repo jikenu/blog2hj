@@ -51,6 +51,15 @@ export default defineUserConfig({
                 ],
               },
               {
+                text: "site",
+                collapsible: true,
+                sidebarDepth: 1,
+                // link: "/pages/pages.md",
+                children: [
+                  {text: 'site1',sidebarDepth:1,link:'/pages/cloudflare/site/site1.md'}
+                ],
+              },
+              {
                 text: "fofa",
                 collapsible: true,
                 sidebarDepth: 1,
