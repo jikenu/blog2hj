@@ -14,6 +14,7 @@ export default defineUserConfig({
     navbar: [
         {text: '首页',link: '/',},
         {text: 'Music',link: '/pages/audio/Music.md'},
+        {text: 'Video', link: '/pages/video/Video.md'},
         {
           text: 'Java',
           collapsible: true,
