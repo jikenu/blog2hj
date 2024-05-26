@@ -13,6 +13,7 @@ export default defineUserConfig({
     navbar: [
         {text: '首页',link: '/',},
         {text: 'Music',link: '/pages/test.md'},
+        {text:'',link: '/pages/audio/Eve-Kitan.mp3'},
         {
           text: 'Java',
           // link: '/pages/test.md'
