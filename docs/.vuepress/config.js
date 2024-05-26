@@ -12,6 +12,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     navbar: [
         {text: '首页',link: '/',},
+        {text: 'Music',link: '/pages/test.md'},
         {
           text: 'Java',
           // link: '/pages/test.md'
