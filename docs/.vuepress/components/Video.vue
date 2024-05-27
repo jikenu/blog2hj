@@ -2,16 +2,7 @@
     <div class="video-container">
         <!--封面： poster="https://files.vidstack.io/sprite-fight/poster.webp"  -->
         <VidStack src="/video/gze-kxin.mp4" title="光泽 - 空心" width="80%"/>
-
-        <!-- 定义多个视频  同时可定义尺寸  失败 -->
-        <Vidstack title="光泽 - 空心" :src="[
-            {
-                src: '/video/gze-kxin.mp4',
-                type: 'video/mp4',
-                width: 80,
-                // height: 720,
-            },
-            ]" />
+ 
     </div>
 </template>
 

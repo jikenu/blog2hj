@@ -1,11 +1,6 @@
 <template>
     <div class="line-center">
       <h1>Music</h1>
-      <!-- <span> eve - 廻廻奇谭</span>
-            <audio controls>
-                <source src="/audio/Eve-Kitan.mp3" type="audio/mp3">
-            您的浏览器不支持 audio 元素。
-            </audio> -->  
         <div class="item">
           <h4>eve - 廻廻奇谭</h4>
             <VidStack class="audio" src="/audio/Eve-Kitan.mp3" title="eve - 廻廻奇谭" />
