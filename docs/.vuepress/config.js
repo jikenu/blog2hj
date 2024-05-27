@@ -15,14 +15,14 @@ export default defineUserConfig({
       { text: '首页', link: '/', },
       { text: 'Music', link: '/pages/audio/Music.md' },
       { text: 'Video', link: '/pages/video/Video.md' },
-      { 
-        text: 'PDF',
-        collapsible: false,
-        children: [
+      // { 
+      //   text: 'PDF',
+      //   collapsible: false,
+      //   children: [
           // {text: "Java八股一",link: '/pages/pdf/bagu1.md'},
           // {text: "Java八股二",link: '/pages/pdf/bagu2.md'}
-        ]
-      },
+      //   ]
+      // },
       {
         text: 'Java',
         collapsible: false,
