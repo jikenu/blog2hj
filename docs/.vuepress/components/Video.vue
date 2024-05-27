@@ -5,6 +5,7 @@
                 <source src="/video/gze-kxin.mp4" type="video/mp4">
                 您的浏览器不支持视频标签。
             </video>
+
         </div>
     </div>
 </template>
@@ -31,7 +32,7 @@ export default {
     margin: 0 auto;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 
 /* 定义视频的样式 */
