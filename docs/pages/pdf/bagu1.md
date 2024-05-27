@@ -1,1 +1,1 @@
-<PDF url="/pdf/bagu1.pdf" />
+<PDView/>
