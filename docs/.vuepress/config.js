@@ -1,14 +1,13 @@
-import { viteBundler } from '@vuepress/bundler-vite'
-import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite';
+import { defaultTheme } from '@vuepress/theme-default';
+import { defineUserConfig } from 'vuepress';
 import { componentsPlugin } from "vuepress-plugin-components";
-
 
 export default defineUserConfig({
   base: '/blog2hj/',
   lang: 'zh-CN',
   title: 'Blog',
-  description: 'edit test ',
+  description: 'edit test',
 
   bundler: viteBundler(),
   theme: defaultTheme({
@@ -20,13 +19,13 @@ export default defineUserConfig({
         text: 'PDF',
         collapsible: false,
         children: [
-          {text: "Java八股一",link: '/pages/pdf/bagu1.md'},
+          // {text: "Java八股一",link: '/pages/pdf/bagu1.md'},
           // {text: "Java八股二",link: '/pages/pdf/bagu2.md'}
         ]
       },
       {
         text: 'Java',
-        collapsible: true,
+        collapsible: false,
         children: [
           { text: "Java基础", sidebarDepth: 1, link: "/pages/java/JavaPage1.md", },
           { text: "Rpc示例", sidebarDepth: 1, link: "/pages/java/Rpc.md", }
@@ -82,6 +81,7 @@ export default defineUserConfig({
       ]
     }
   }),
+
   plugins: [
     componentsPlugin({
       components: [
