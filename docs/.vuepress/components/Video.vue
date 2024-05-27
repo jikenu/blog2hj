@@ -1,12 +1,17 @@
 <template>
-    <div>
-        <div class="video-container">
-            <video controls class="video">
-                <source src="/video/gze-kxin.mp4" type="video/mp4">
-                您的浏览器不支持视频标签。
-            </video>
+    <div class="video-container">
+        <!--封面： poster="https://files.vidstack.io/sprite-fight/poster.webp"  -->
+        <VidStack src="/video/gze-kxin.mp4" title="光泽 - 空心" width="80%"/>
 
-        </div>
+        <!-- 定义多个视频  同时可定义尺寸  失败 -->
+        <Vidstack title="光泽 - 空心" :src="[
+            {
+                src: '/video/gze-kxin.mp4',
+                type: 'video/mp4',
+                width: 80,
+                // height: 720,
+            },
+            ]" />
     </div>
 </template>
 
@@ -17,8 +22,8 @@ export default {
         }
     },
     methods: {
-        },
-  
+    },
+
     mounted() {
     }
 }
@@ -26,20 +31,14 @@ export default {
 
 
 <style>
-/* 定义视频播放器的样式 */
 .video-container {
-    max-width: 800px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
-
-/* 定义视频的样式 */
-video {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+/* 暂未生效 */
+.vds-button[data-active] .pip-enter-icon,
+.vds-button:not([data-active]) .pip-exit-icon {
+    display: none;
 }
-
 </style>
