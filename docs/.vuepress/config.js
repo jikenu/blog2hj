@@ -89,6 +89,6 @@ export default defineUserConfig({
         "PDF",
         "VidStack",
       ],
-    })
+    }),
   ]
 })
