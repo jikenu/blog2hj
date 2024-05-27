@@ -88,8 +88,7 @@ export default defineUserConfig({
         "bilibili",
         "PDF",
         "VidStack",
-      ]
-
+      ],
     })
   ]
 })
