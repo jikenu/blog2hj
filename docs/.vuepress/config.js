@@ -20,8 +20,8 @@ export default defineUserConfig({
         text: 'PDF',
         collapsible: false,
         children: [
-          {text: "Java八股一",link: '/pages/pdf/八股1.md'},
-          {text: "Java八股二",link: '/pages/pdf/八股2.md'}
+          {text: "Java八股一",link: '/pages/pdf/bagu1.md'},
+          // {text: "Java八股二",link: '/pages/pdf/bagu2.md'}
         ]
       },
       {
