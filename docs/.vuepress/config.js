@@ -82,13 +82,13 @@ export default defineUserConfig({
     }
   }),
 
-  // plugins: [
-  //   componentsPlugin({
-  //     components: [
-  //       "bilibili",
-  //       "PDF",
-  //       "VidStack",
-  //     ],
-  //   }),
-  // ],
+  plugins: [
+    componentsPlugin({
+      components: [
+        "bilibili",
+        "PDF",
+        "VidStack",
+      ],
+    }),
+  ],
 })
