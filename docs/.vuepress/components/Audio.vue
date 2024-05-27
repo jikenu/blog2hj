@@ -3,7 +3,7 @@
       <h1>Music</h1>
         <div class="item">
           <h4>eve - 廻廻奇谭</h4>
-            <VidStack class="audio" src="/audio/Eve-Kitan.mp3" title="eve - 廻廻奇谭" />
+            <VidStack class="audio" src="/audio/Eve-Kitan.mp3" title="eve - 廻廻奇谭"></VidStack>
         </div>
     </div>
 </template>
