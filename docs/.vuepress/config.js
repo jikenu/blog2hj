@@ -4,7 +4,7 @@ import { defineUserConfig } from 'vuepress';
 import { componentsPlugin } from "vuepress-plugin-components";
 
 export default defineUserConfig({
-  base: '/blog2hj/',
+  // base: '/blog2hj/',
   lang: 'zh-CN',
   title: 'Blog',
   description: 'edit test',
